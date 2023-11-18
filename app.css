@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.switcher {
+    width: 640px;
+    height: 240px;
+    background-color: #E0E0E0;
+    display: flex;
+    padding: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-radius: 9999px;
+}
+
+.switcher-ball:hover {
+    cursor: pointer;
+}
+
+.switcher-ball {
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+}
+
+.switcher-ball-red {
+    background: linear-gradient(to bottom, #E57373, #F44336);
+}
+
+.switcher-ball-blue {
+    background: linear-gradient(to bottom, #64B5F6, #2196F3);
+}
