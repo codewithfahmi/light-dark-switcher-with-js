@@ -2,6 +2,6 @@
 
 ![](illustration.gif)
 
-Ini adalah implementasi sederhana membuat switch yang dapat merubah background yang asalnya berwarna cerah (```#E0E0E0```) menjadi gelap (```#212121```) menggunakan JavaScript.
+This is a simple implementation of making a switch that can change the background from light (#E0E0E0) to dark (#212121) using JavaScript.
 
-Dalam source code, saya mengimplementasikan fungsi add dan remove class saja dan tidak menggunakan localStorage untuk media penyimpanan class sementara, namun dimungkinkan untuk menggunakan localStorage.
+In the source code, I only implement the add and remove class function and not using localStorage for temporary class storage, but it is possible to use localStorage.
